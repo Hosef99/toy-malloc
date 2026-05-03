@@ -13,9 +13,11 @@ Here are the steps:
 5. Press `Apply` in the window, and let it download and install MinGW
 6. Do a Windows search (You can do that by pressing the Windows button), and search for "Edit the system environment variables", select it
 7. Click on "Environment Variables" and in the "User variables for (username)" section, double click on "Path"
-8. Click on "New" and put `C:\MinGW\bin` in it. Press ok for all the windows regarding environment variables.
+8. Click on "New" and put `C:\MinGW\bin\` in it. Press ok for all the windows regarding environment variables.
 
 And you're all set!
+
+Note: During step 8, your `MinGW` might not be installed into `C:\MinGW\bin\`. If it is not installed into the root folder (eg. `C:\`, you might need use the File Explorer to check if MinGW is installed into the `C:\Program Files\` folder or the `C:\Program Files (x86)\` folder.
 
 #### Testing
 To test if you can run `gcc`, open up the application "Command Prompt", and type in `gcc --version`, if it shows the version, then you should be good to go.
