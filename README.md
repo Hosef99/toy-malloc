@@ -24,4 +24,6 @@ To test if you can run `gcc`, open up the application "Command Prompt", and type
 If not, reach out and I'll personally come and help you.
 
 ### Linux
-If you're in Linux, you most probably know what to do.
+If you're in Linux, you most probably know what to do. But anyways, you would need to get `gcc` installed in your system.
+
+Since there are many Linux distros, just do a Google search "Install GCC [distro name]", and you should be able to just type 1 or 2 commands and you're fully setup. Most distros come with GCC preinstalled tho, so do type `gcc --version` to check if you have it in your system before you install it.
