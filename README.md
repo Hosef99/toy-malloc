@@ -32,5 +32,5 @@ If you're in Linux, you most probably know what to do. But anyways, you would ne
 Since there are many Linux distros, just do a Google search "Install GCC [distro name]", and you should be able to just type 1 or 2 commands and you're fully setup. Most distros come with GCC preinstalled tho, so do type `gcc --version` to check if you have it in your system before you install it.
 
 ## References
-- The Linux Programming Interface (TLPI) Page 145
 - The C Programming Language (K&R) Page 84-87
+- The Linux Programming Interface (TLPI) Chapter 7 - Memory Allocation
