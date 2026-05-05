@@ -1,5 +1,8 @@
 # toy-malloc
 
+## Running
+In your terminal / command prompt / powershell, run `gcc -o main main.c` to compile main.c. Then, run the program by typing `./main` if you're on Linux/MacOS, or simply `main` if you're on Windows.
+
 ## Setting Up
 ### Windows
 #### Steps
